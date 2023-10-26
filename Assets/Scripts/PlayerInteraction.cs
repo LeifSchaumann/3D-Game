@@ -23,6 +23,7 @@ public class PlayerInteraction : MonoBehaviour
             if (heldRB != null)
             {
                 heldRB.useGravity = true;
+                heldRB.velocity *= 0.2f;
                 heldRB = null;
             } else
             {
