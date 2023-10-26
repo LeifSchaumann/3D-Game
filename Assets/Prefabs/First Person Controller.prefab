@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   m_Layer: 0
-  m_Name: Graphics
+  m_Name: Debug Graphic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 11400002}
   - component: {fileID: 11400004}
+  - component: {fileID: 7836132667774488544}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: Player
@@ -286,6 +287,18 @@ MonoBehaviour:
   grounded: 1
   groundNormal: {x: 0, y: 0, z: 0}
   lastGroundNormal: {x: 0, y: 0, z: 0}
+--- !u!114 &7836132667774488544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883ef498b1b15c5459c6e3da52aab475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +314,7 @@ GameObject:
   - component: {fileID: 8100000}
   - component: {fileID: 987207058986688023}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
